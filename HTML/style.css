@@ -1,0 +1,136 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background: linear-gradient(to right, #0d0d0d, #3a3a3a);
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    color: #ff4500;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ff4500;
+}
+
+/* Sección principal */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: url('background.jpg') no-repeat center center/cover;
+    color: white;
+}
+
+.hero h2 {
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff4500;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #d63a00;
+}
+
+/* Sección de temas */
+.contenido {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+}
+
+.tema {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.tema img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.tema h3 {
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+.tema p {
+    font-size: 16px;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    background: #222;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.sociales a {
+    color: #ff4500;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.sociales a:hover {
+    text-decoration: underline;
+}
